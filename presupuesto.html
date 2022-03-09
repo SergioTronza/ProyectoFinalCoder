@@ -36,44 +36,35 @@
     </header>
 
     <main class="text-center">
-        <h1>PRODUCTOS</h1>
-        <div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./media/tr_cuenco.jpg" class="card-img-top" alt="cuenco">
-                            <div class="card-body">
-                                <h5 class="card-title">Cuenco</h5>
-                            </div>
-                        </div>
+        <div class="row border border-dark container carro">
+            <div class="col-12">
+                <h2>E-MAIL</h2>
+                <p>Para Trabajos mas especificos, pordes comunicarte por esta via.</p>
+            </div>
+            <div class="col-12">
+                <form method="POST" action="contacto.php">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input name="nombre" required type="text" id="nombre"
+                            class="form-control" placeholder="Tu nombre">
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./media/florero.jpg" class="card-img-top" alt="florero">
-                            <div class="card-body">
-                                <h5 class="card-title">Florero</h5>
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico</label>
+                        <input name="correo" required type="email" id="correo"
+                            class="form-control" placeholder="Tu correo electrónico">
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./media/Hueveras.jpg" class="card-img-top" alt="Huevera">
-                            <div class="card-body">
-                                <h5 class="card-title">Huevera</h5>
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea required placeholder="Escribe tu mensaje"
+                            class="form-control" name="mensaje" id="mensaje"
+                            cols="30" rows="5"></textarea>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./media/plato2.jpg" class="card-img-top" alt="platos">
-                            <div class="card-body">
-                                <h5 class="card-title">Platos</h5>
-                            </div>
-                        </div>
-
+                    <div class="form-group">
+                        <button class="btn-success btn" type="submit">
+                            Enviar
+                        </button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
 
