@@ -1,3 +1,14 @@
+.listaUno{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.listaUno li{
+    background-color: #E6CCB2;
+    padding: 15px;
+    border: solid 3px black;
+}
 .fondoDos{
     @include contenedor();
 }

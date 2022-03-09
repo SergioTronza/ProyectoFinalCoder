@@ -1,7 +1,18 @@
 .text-center .col:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   transition-property: all;
   transition-duration: 1s; }
+
+.listaUno {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.listaUno li {
+  background-color: #E6CCB2;
+  padding: 15px;
+  border: solid 3px black; }
 
 .fondoDos {
   font-family: sans-serif;
